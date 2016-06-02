@@ -1,0 +1,7 @@
+# Editors 
+*.swp
+*.swo
+*~
+
+# Generated files
+output/
