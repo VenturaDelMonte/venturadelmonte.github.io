@@ -3,5 +3,12 @@
 *.swo
 *~
 
+# Python
+__pycache__/
+*.py[cod]
+
+# Development server
+*.pid
+
 # Generated files
 output/
