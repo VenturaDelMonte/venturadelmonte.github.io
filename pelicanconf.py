@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 # http://docs.getpelican.com/en/3.6.3/settings.html
 AUTHOR = 'Clemens Lutz'
 SITENAME = 'Clemens Lutz | DFKI'
-# SITEURL = 'http://www.clemenslutz.com'
+SITEURL = 'http://www.clemenslutz.com'
 
 PATH = 'content'
 
