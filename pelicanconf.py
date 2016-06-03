@@ -35,6 +35,14 @@ BOOTSTRAP_THEME = "paper"
 PYGMENTS_STYLE = "bw"
 DISPLAY_CATEGORIES_ON_MENU = False
 
+CUSTOM_CSS = 'static/custom.css'
+# Tell Pelican to add 'extra/custom.css' to the output dir
+STATIC_PATHS = ['extra/custom.css']
+# Tell Pelican to change the path to 'static/custom.css' in the output dir
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/custom.css'}
+}
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
