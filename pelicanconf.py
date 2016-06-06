@@ -37,7 +37,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 CUSTOM_CSS = 'static/custom.css'
 # Tell Pelican to add 'extra/custom.css' to the output dir
-STATIC_PATHS = ['extra/custom.css']
+STATIC_PATHS = ['images', 'pdfs', 'extra']
 # Tell Pelican to change the path to 'static/custom.css' in the output dir
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'}
