@@ -6,14 +6,14 @@ status: hidden
 
 <div markdown=1 class="row">
 <div class="col-sm-8">
-<h5>
+
 PhD student and researcher at
 [German Research Center for Artificial Intelligence (DFKI)](http://www.dfki.de/web?set_language=en&cl=en)
 mentored by
 [Prof. Volker Markl](https://www.dima.tu-berlin.de/menue/mitarbeiter/volker_markl)
 and
 [Dr.-Ing. Sebastian Breß](http://www.user.tu-berlin.de/sebastian.bress).
-</h5>
+{: class="lead text-justify"}
 
 My research interests are data management using modern hardware,
 and distributed systems.
@@ -39,30 +39,36 @@ during my BSc at ETH Zurich.
 {: class="text-justify"}
 </div>
 <div markdown=1 class="col-sm-3">
-![Clemens Lutz]({filename}/images/clemens_image.jpg){: class="img-thumbnail"}
+![Clemens Lutz]({filename}/images/clemens_image.jpg){: class="img-thumbnail center-block"}
 </div>
 <div markdown=1 class="col-sm-4">
 <div class="row">
-<div class="col-sm-2">
-<span class="fa fa-envelope"></span>
+<div class="col-xs-2 text-center col-minimize">
+<abbr title="E-mail">
+<i class="fa fa-envelope"></i>
+</abbr>
 </div>
-<div class="col-sm-10">
-firstname.lastname@dfki.de
+<div class="col-xs-10">
+<a href="mailto:clemens.lutz@dfki.de">clemens.lutz@dfki.de</a>
 </div>
 </div>
 <div class="row">
-<div class="col-sm-2">
-<span class="fa fa-phone"></span>
+<div class="col-xs-2 col-minimize">
+<abbr title="Phone">
+<i class="fa fa-phone"></i>
+</abbr>
 </div>
-<div class="col-sm-10">
+<div class="col-xs-10">
 +49 30 23895 1855
 </div>
 </div>
 <div class="row">
-<div class="col-sm-2">
-<span class="fa fa-map-marker"></span>
+<div class="col-xs-2 col-minimize">
+<abbr title="Address">
+<i class="fa fa-map-marker"></i>
+</abbr>
 </div>
-<div class="col-sm-10">
+<div class="col-xs-10">
 DFKI GmbH  
 Alt-Moabit 91c  
 10559 Berlin  
@@ -79,7 +85,7 @@ Germany
 
 <dl markdown=1 class="dl-horizontal">
 <dt>
-<span class="label label-primary">ICDCS'15</span><br />
+<span class="label label-primary">ICDCS'15</span><br class="hidden-xs" />
 <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7164952"><i class="fa fa-external-link"></i></a>
 </dt>
 <dd>
@@ -88,7 +94,7 @@ Animesh Trivedi, Patrick Stuedi, Bernard Metzler, Clemens Lutz, Martin Schmatz, 
 </dd>
 
 <dt>
-<span class="label label-primary">MSc 2014</span><br />
+<span class="label label-primary">MSc 2014</span><br class="hidden-xs" />
 <a href="pdfs/clemens_lutz_msc_thesis.pdf"><i class="fa fa-file-pdf-o"></i></a>
 </dt>
 <dd>
