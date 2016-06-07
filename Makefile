@@ -16,6 +16,7 @@ SSH_HOST=tu-berlin
 SSH_PORT=22
 SSH_USER=cllu01
 SSH_TARGET_DIR=/home/users/c/cllu01/public_html
+SSH_TEST_TARGET_DIR=/home/users/c/cllu01/public_html/test
 
 S3_BUCKET=my_s3_bucket
 
@@ -50,6 +51,7 @@ help:
 	@echo '   make devserver [PORT=8000]          start/restart develop_server.sh    '
 	@echo '   make stopserver                     stop local server                  '
 	@echo '   make ssh_upload                     upload the web site via SSH        '
+	@echo '   make ssh_test_upload                upload the web site via SSH to test dir'
 	@echo '   make rsync_upload                   upload the web site via rsync+ssh  '
 	@echo '   make dropbox_upload                 upload the web site via Dropbox    '
 	@echo '   make ftp_upload                     upload the web site via FTP        '
@@ -101,6 +103,9 @@ publish:
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+
+ssh_test_upload: html
+	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TEST_TARGET_DIR)
 
 rsync_upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude

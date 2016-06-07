@@ -6,7 +6,9 @@ from __future__ import unicode_literals
 # http://docs.getpelican.com/en/3.6.3/settings.html
 AUTHOR = 'Clemens Lutz'
 SITENAME = 'Clemens Lutz | DFKI'
-SITEURL = 'http://www.clemenslutz.com'
+
+# The published SITEURL is set in publishconf.py
+SITEURL = 'http://www.user.tu-berlin.de/cllu01/test'
 
 PATH = 'content'
 
@@ -15,7 +17,7 @@ TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = 'en'
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 #### Configure as static homepage without blog ####
 # When using static page as index, move blog index
@@ -34,6 +36,7 @@ THEME = "pelican-themes/pelican-bootstrap3"
 BOOTSTRAP_THEME = "paper"
 PYGMENTS_STYLE = "bw"
 DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
 
 CUSTOM_CSS = 'static/custom.css'
 # Tell Pelican to add 'extra/custom.css' to the output dir
@@ -44,6 +47,7 @@ EXTRA_PATH_METADATA = {
 }
 
 # Feed generation is usually not desired when developing
+# Publish options are set in publishconf.py
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
