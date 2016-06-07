@@ -83,8 +83,8 @@ Germany
 <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7164952"><i class="fa fa-external-link"></i></a>
 </dt>
 <dd>
-**RStore: A Direct-Access DRAM-based Data Store.**
-Animesh Trivedi, Patrick Stuedi, Bernard Metzler, Clemens Lutz, Martin Schmatz, Thomas R. Gross, in the 35th [IEEE International Conference on Distributed Computing Systems (ICDCS'15)](http://icdcs-2015.cse.ohio-state.edu), Columbus, Ohio, USA, June 29th - July 2nd, 2015.
+<strong>RStore: A Direct-Access DRAM-based Data Store.</strong>
+Animesh Trivedi, Patrick Stuedi, Bernard Metzler, Clemens Lutz, Martin Schmatz, Thomas R. Gross, in the 35th [<em>IEEE Int. Conf. Distributed Computing Systems (ICDCS'15)</em>](http://icdcs-2015.cse.ohio-state.edu), Columbus, Ohio, USA, June 29th - July 2nd, 2015.
 </dd>
 
 <dt>
@@ -92,7 +92,8 @@ Animesh Trivedi, Patrick Stuedi, Bernard Metzler, Clemens Lutz, Martin Schmatz, 
 <a href="pdfs/clemens_lutz_msc_thesis.pdf"><i class="fa fa-file-pdf-o"></i></a>
 </dt>
 <dd>
-**Carafe: High-Performance, In-Memory Graph Processing with RDMA.** Clemens Lutz. Master's Thesis, ETH Zurich, October 2014
+<strong>Carafe: High-Performance, In-Memory Graph Processing with RDMA.</strong>
+Clemens Lutz, MSc thesis, D-INFK, ETH Zurich, Zurich, Switzerland, October 2014
 </dd>
 </dl>
 
