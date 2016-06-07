@@ -75,6 +75,17 @@ Alt-Moabit 91c
 Germany  
 </div>
 </div>
+<div class="row">
+<div class="col-xs-2 col-minimize">
+<abbr title="Room">
+<i class="fa fa-comments"></i>
+</abbr>
+</div>
+<div class="col-xs-10">
+DFKI <i class="fa fa-caret-right"></i> G.04.019  
+TU Berlin <i class="fa fa-caret-right"></i> EN 739
+</div>
+</div>
 </div>
 </div>
 <div markdown=1 class="row">
