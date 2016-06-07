@@ -39,7 +39,7 @@ during my BSc at ETH Zurich.
 {: class="text-justify"}
 </div>
 <div markdown=1 class="col-sm-3">
-![Alt text]({filename}/images/clemens_image.jpg){: class="img-thumbnail"}
+![Clemens Lutz]({filename}/images/clemens_image.jpg){: class="img-thumbnail"}
 </div>
 <div markdown=1 class="col-sm-4">
 <div class="row">
