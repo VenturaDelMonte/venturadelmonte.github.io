@@ -5,7 +5,7 @@ save_as: index.html
 status: hidden
 
 <div markdown=1 class="row">
-<div class="col-sm-8">
+<div class="col-xs-12 col-sm-12 col-md-8">
 
 PhD student and researcher at
 [German Research Center for Artificial Intelligence (DFKI)](http://www.dfki.de/web?set_language=en&cl=en)
@@ -38,10 +38,10 @@ and
 during my BSc at ETH Zurich.
 {: class="text-justify"}
 </div>
-<div markdown=1 class="col-sm-3">
+<div markdown=1 class="col-xs-4 col-sm-6 col-md-3">
 ![Clemens Lutz]({filename}/images/clemens_image.jpg){: class="img-thumbnail center-block"}
 </div>
-<div markdown=1 class="col-sm-4">
+<div markdown=1 class="col-xs-8 col-sm-6 col-md-4">
 <div class="row">
 <div class="col-xs-2 text-center col-minimize">
 <abbr title="E-mail">
