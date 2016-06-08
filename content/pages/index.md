@@ -35,7 +35,7 @@ where I wrote my BSc thesis under supervision of
 [Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp)
 and
 [Dr. Paolo Costa](https://research.microsoft.com/en-us/um/people/pcosta),
-during my BSc at ETH Zurich.
+during my Bachelor's studies at ETH Zurich.
 {: class="text-justify"}
 </div>
 <div markdown=1 class="col-xs-4 col-sm-6 col-md-3">
