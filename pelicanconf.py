@@ -56,10 +56,10 @@ AUTHOR_FEED_RSS = None
 
 #### Social media settings ####
 
-GITHUB_USER = "lutzcle"
-GITHUB_REPO_COUNT = 3
-GITHUB_SKIP_FORK = True
-GITHUB_SHOW_USER_LINK = True
+# GITHUB_USER = "lutzcle"
+# GITHUB_REPO_COUNT = 3
+# GITHUB_SKIP_FORK = True
+# GITHUB_SHOW_USER_LINK = True
 
 
 # Blogroll
