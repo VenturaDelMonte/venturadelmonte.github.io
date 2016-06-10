@@ -10,9 +10,9 @@ status: hidden
 PhD student and researcher at
 [German Research Center for Artificial Intelligence (DFKI)](http://www.dfki.de/web?set_language=en&cl=en)
 mentored by
-[Prof. Volker Markl](https://www.dima.tu-berlin.de/menue/mitarbeiter/volker_markl)
+[Volker Markl](https://www.dima.tu-berlin.de/menue/mitarbeiter/volker_markl)
 and
-[Dr.-Ing. Sebastian Breß](http://www.user.tu-berlin.de/sebastian.bress).
+[Sebastian Breß](http://www.user.tu-berlin.de/sebastian.bress).
 {: class="lead text-justify"}
 
 My research interests are data management using modern hardware,
@@ -26,15 +26,15 @@ I received my MSc degree from
 in collaboration with
 [IBM Research, Zurich](https://www.research.ibm.com/labs/zurich)
 under supervision of
-[Prof. Thomas R. Gross](http://www.lst.inf.ethz.ch/people/trg.html)
+[Thomas R. Gross](http://www.lst.inf.ethz.ch/people/trg.html)
 and
 [Animesh Trivedi](http://researcher.watson.ibm.com/researcher/view.php?person=zurich-atr).
 My Master's was preceeded by an exchange at
 [Imperial College London](https://www.imperial.ac.uk),
 where I wrote my BSc thesis under supervision of
-[Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp)
+[Peter Pietzuch](https://www.doc.ic.ac.uk/~prp)
 and
-[Dr. Paolo Costa](https://research.microsoft.com/en-us/um/people/pcosta),
+[Paolo Costa](https://research.microsoft.com/en-us/um/people/pcosta),
 during my Bachelor's studies at ETH Zurich.
 {: class="text-justify"}
 </div>
