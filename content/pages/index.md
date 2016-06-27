@@ -17,7 +17,7 @@ and
 
 My research interests are data management using modern hardware,
 and distributed systems.
-Currently I am investigating automated variant generation from declarative queries for heterogenous processors.
+Currently I am investigating automated variant generation from declarative queries for heterogeneous processors.
 {: class="text-justify"}
 
 Before coming to DFKI,
@@ -29,7 +29,7 @@ under supervision of
 [Thomas R. Gross](http://www.lst.inf.ethz.ch/people/trg.html)
 and
 [Animesh Trivedi](http://researcher.watson.ibm.com/researcher/view.php?person=zurich-atr).
-My Master's was preceeded by an exchange at
+My Master's was preceded by an exchange at
 [Imperial College London](https://www.imperial.ac.uk),
 where I wrote my BSc thesis under supervision of
 [Peter Pietzuch](https://www.doc.ic.ac.uk/~prp)
