@@ -117,6 +117,7 @@ Clemens Lutz, MSc thesis, D-INFK, ETH Zurich, Zurich, Switzerland, October 2014
 ***
 #### Teaching
 
+- **Databases Laboratory**, WS 2016, TU Berlin
 - **Information Management Seminar**, SS 2016, TU Berlin
 - **Databases Seminar**, WS 2015, TU Berlin
 - **Operating Systems and Networks**, SS 2011, ETH Zurich
