@@ -82,7 +82,7 @@ Germany
 </abbr>
 </div>
 <div class="col-xs-10">
-DFKI <i class="fa fa-caret-right"></i> G.5.005  
+DFKI <i class="fa fa-caret-right"></i> G.5.007  
 TU Berlin <i class="fa fa-caret-right"></i> EN 739
 </div>
 </div>
