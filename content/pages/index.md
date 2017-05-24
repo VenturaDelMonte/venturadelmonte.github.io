@@ -37,6 +37,7 @@ and
 [Paolo Costa](https://research.microsoft.com/en-us/um/people/pcosta),
 during my Bachelor's studies at ETH Zurich.
 {: class="text-justify"}
+
 </div>
 <div markdown=1 class="col-xs-4 col-sm-6 col-md-3">
 ![Clemens Lutz]({filename}/images/clemens_image.jpg){: class="img-thumbnail center-block"}
