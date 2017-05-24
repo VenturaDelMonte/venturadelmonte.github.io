@@ -4,7 +4,7 @@ URL:
 save_as: index.html
 status: hidden
 
-<div class="row">
+<div markdown=1 class="row">
 <div class="col-xs-12 col-sm-12 col-md-8">
 
 PhD student and researcher at
