@@ -12,11 +12,11 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=tu-berlin
+SSH_HOST=alain.cml.li
 SSH_PORT=22
-SSH_USER=cllu01
-SSH_TARGET_DIR=/home/users/c/cllu01/public_html
-SSH_TEST_TARGET_DIR=/home/users/c/cllu01/public_html/test
+SSH_USER=lutzcle
+SSH_TARGET_DIR=/var/www/clemenslutz_com
+SSH_TEST_TARGET_DIR=/var/www/alain_cml_li
 
 S3_BUCKET=my_s3_bucket
 

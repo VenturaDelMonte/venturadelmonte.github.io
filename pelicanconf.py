@@ -8,7 +8,7 @@ AUTHOR = 'Clemens Lutz'
 SITENAME = 'Clemens Lutz | DFKI'
 
 # The published SITEURL is set in publishconf.py
-SITEURL = 'http://www.user.tu-berlin.de/cllu01/test'
+SITEURL = 'https://alain.cml.li'
 
 PATH = 'content'
 
