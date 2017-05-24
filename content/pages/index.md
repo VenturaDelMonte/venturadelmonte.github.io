@@ -102,7 +102,7 @@ TU Berlin <i class="fa fa-caret-right"></i> EN 739
 </dt>
 <dd>
 <strong>RStore: A Direct-Access DRAM-based Data Store.</strong>
-Animesh Trivedi, Patrick Stuedi, Bernard Metzler, Clemens Lutz, Martin Schmatz, Thomas R. Gross, in the 35th [<em>IEEE Int. Conf. Distributed Computing Systems (ICDCS'15)</em>](http://icdcs-2015.cse.ohio-state.edu), Columbus, Ohio, USA, June 29th - July 2nd, 2015.
+Animesh Trivedi, Patrick Stuedi, Bernard Metzler, Clemens Lutz, Martin Schmatz, Thomas R. Gross, in the 35th <em>IEEE Int. Conf. Distributed Computing Systems (ICDCS'15)</em>, Columbus, Ohio, USA, June 29th - July 2nd, 2015.
 </dd>
 
 <dt>
