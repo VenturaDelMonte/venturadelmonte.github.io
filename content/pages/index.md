@@ -82,7 +82,7 @@ Germany
 </abbr>
 </div>
 <div class="col-xs-10">
-DFKI <i class="fa fa-caret-right"></i> G.5.007  
+DFKI <i class="fa fa-caret-right"></i> G.5.007
 TU Berlin <i class="fa fa-caret-right"></i> EN 739
 </div>
 </div>
@@ -117,6 +117,7 @@ Clemens Lutz, MSc thesis, D-INFK, ETH Zurich, Zurich, Switzerland, October 2014
 ***
 #### Teaching
 
+- **Information Systems and Data Analysis**, SS 2017, TU Berlin
 - **Databases Laboratory**, WS 2016, TU Berlin
 - **Information Management Seminar**, SS 2016, TU Berlin
 - **Databases Seminar**, WS 2015, TU Berlin
