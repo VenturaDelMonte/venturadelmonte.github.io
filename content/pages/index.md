@@ -4,7 +4,7 @@ URL:
 save_as: index.html
 status: hidden
 
-<div markdown=1 class="row">
+<div class="row">
 <div class="col-xs-12 col-sm-12 col-md-8">
 
 PhD student and researcher at
@@ -39,10 +39,10 @@ during my Bachelor's studies at ETH Zurich.
 {: class="text-justify"}
 
 </div>
-<div markdown=1 class="col-xs-4 col-sm-6 col-md-3">
-![Clemens Lutz]({filename}/images/clemens_image.jpg){: class="img-thumbnail center-block"}
+<div class="col-xs-4 col-sm-6 col-md-3">
+<img alt="Clemens Lutz" src="{filename}/images/clemens_image.jpg" {: class="img-thumbnail center-block"}>
 </div>
-<div markdown=1 class="col-xs-8 col-sm-6 col-md-4">
+<div class="col-xs-8 col-sm-6 col-md-4">
 <div class="row">
 <div class="col-xs-2 text-center col-minimize">
 <abbr title="E-mail">
@@ -70,10 +70,10 @@ during my Bachelor's studies at ETH Zurich.
 </abbr>
 </div>
 <div class="col-xs-10">
-DFKI GmbH  
-Alt-Moabit 91c  
-10559 Berlin  
-Germany  
+DFKI GmbH<br />
+Alt-Moabit 91c<br />
+10559 Berlin<br />
+Germany
 </div>
 </div>
 <div class="row">
@@ -83,7 +83,7 @@ Germany
 </abbr>
 </div>
 <div class="col-xs-10">
-DFKI <i class="fa fa-caret-right"></i> G.5.007
+DFKI <i class="fa fa-caret-right"></i> G.5.007<br />
 TU Berlin <i class="fa fa-caret-right"></i> EN 739
 </div>
 </div>
