@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 
 #### Site Settings ####
 # http://docs.getpelican.com/en/3.6.3/settings.html
-AUTHOR = 'Clemens Lutz'
-SITENAME = 'Clemens Lutz | DFKI'
+AUTHOR = 'Bonaventura Del Monte'
+SITENAME = 'Bonaventura Del Monte, M.Sc.'
 
 # The published SITEURL is set in publishconf.py
-SITEURL = 'https://alain.cml.li'
+SITEURL = 'https://www.user.tu-berlin.de/ventura-delmonte/'
 
 PATH = 'content'
 
@@ -21,7 +21,7 @@ RELATIVE_URLS = True
 
 #### Configure as static homepage without blog ####
 # When using static page as index, move blog index
-INDEX_SAVE_AS = 'blog_index.html'
+INDEX_SAVE_AS = 'index.html'
 
 # Disable tag-related pages
 TAGS_SAVE_AS = ''
@@ -64,9 +64,12 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('IAM | DFKI', 'http://www.dfki.de/web/research/iam'),
-        ('DIMA | TU Berlin', 'http://www.dima.tu-berlin.de'),)
+        ('DIMA | TU Berlin', 'http://www.dima.tu-berlin.de'),
+        ('Google Scholar', 'https://scholar.google.de/citations?user=KxroUEUAAAAJ&hl=en'),
+        ('Slideshare', 'https://www.slideshare.net/BonaventuraDelMonte'),
+        ('Imprint & Data Privacy', 'https://www.user.tu-berlin.de/ventura-delmonte/imprint.html'),)
 
 # Social widget
-SOCIAL = (('linkedin', 'https://www.linkedin.com/in/clemenslutz'),
-          ('github', 'https://github.com/lutzcle'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/bonaventuradelmonte'),
+          ('github', 'https://github.com/VenturaDelMonte'),)
 

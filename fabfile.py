@@ -12,8 +12,8 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'cllu01@tu-berlin:22'
-dest_path = '/home/users/c/cllu01/public_html'
+production = 'ventura-delmonte@tu-berlin:22'
+dest_path = '/home/users/c/ventura-delmonte/public_html'
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'

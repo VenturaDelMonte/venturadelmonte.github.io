@@ -1,4 +1,4 @@
-PY?=python3
+PY?=python2
 PELICAN?=pelican
 PELICANOPTS=
 
@@ -12,11 +12,11 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=alain.cml.li
+SSH_HOST=sshgate
 SSH_PORT=22
-SSH_USER=lutzcle
-SSH_TARGET_DIR=/var/www/clemenslutz_com
-SSH_TEST_TARGET_DIR=/var/www/alain_cml_li
+SSH_USER=ventura-delmonte
+SSH_TARGET_DIR=/home/users/v/ventura-delmonte/public_html
+SSH_TEST_TARGET_DIR=/home/users/v/ventura-delmonte/test
 
 S3_BUCKET=my_s3_bucket
 
@@ -28,7 +28,7 @@ DROPBOX_DIR=~/Dropbox/Public/
 
 GITHUB_PAGES_BRANCH=gh-pages
 
-DEBUG ?= 0
+DEBUG ?= 1
 ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
 endif
@@ -64,7 +64,7 @@ help:
 	@echo '                                                                          '
 
 html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -v -D
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
