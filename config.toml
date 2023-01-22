@@ -3,8 +3,8 @@
 baseURL = "http://example.org/"
 languageCode = "en"
 title = "Bonaventura Del Monte, Ph.D."
-theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+#theme = "hugo-devresume-theme"
+#googleAnalytics = "UA-XXXXXXX-Y"
 
 
 

@@ -1,0 +1,29 @@
+
+                            <section class="publications-section py-3">
+
+                                <h3 class="text-uppercase resume-section-heading mb-4">{{ i18n "publications" }}</h3>
+
+                                {{ range .Site.Params.publications.list }}
+                                <div class="item mb-3">
+                                    <div class="item-heading row align-items-center mb-2">
+                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ .title }}<br>
+                                            <span class="badge badge-secondary"><a class="label label-default" href={{ .link }}><i class="fa-solid fa-file-pdf"></i>Paper</a></span> 
+                                            {{ if .slides }}
+                                            <span class="badge badge-secondary"><a class="label label-default" href={{ .slides }}>Slides</a></span>
+                                            {{ end }}
+                                            {{ if .video }}
+                                            <span class="badge badge-secondary"><a class="label label-default" href={{ .video }}>Video</a></span>
+                                            {{ end }}
+                                            {{ if .poster }}
+                                            <span class="badge badge-secondary"><a class="label label-default" href={{ .poster }}>Poster</a></span>
+                                            {{ end }}
+                                        </h4>
+                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">{{ .venue }}</div>
+                                    </div>
+                                    <div class="item-content">
+                                        <p><strong>{{ .authors }}</strong> <br> {{ .fullvenue }}</p>
+                                    </div>
+                                </div><!--//item-->
+                                {{ end }}
+
+                            </section><!--//project-section-->
