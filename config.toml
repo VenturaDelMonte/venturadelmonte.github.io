@@ -122,11 +122,14 @@ title = "Bonaventura Del Monte, Ph.D."
         enable = true
 
         [[params.languages.list]]
-        name = "English"
+        name = "Italian"
         level = "Native"
         [[params.languages.list]]
-        name = "Spanish"
+        name = "English"
         level = "Professional"
+        [[params.languages.list]]
+        name = "German"
+        level = "Intermediate"
 
 
 
