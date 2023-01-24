@@ -194,6 +194,13 @@ I developed my Master's thesis while participating to an Erasmus+ program.
 
         enable = true
         [[params.publications.list]]
+            title = "Towards Unifying Query Interpretation and Compilation"
+            authors = "Philipp M. Grulich, Aljoscha Lepping, Dwi Prasetyo Adi Nugroho, Bonaventura Del Monte, Varun Pandey, Steffen Zeuch, Volker Markl"
+            venue = "CIDR'22"
+            link = "https://www.cidrdb.org/cidr2023/papers/p49-grulich.pdf"
+            slides = ""
+            fullvenue = "13th Annual Conference on Innovative Data Systems Research (CIDR 2023). January 8-11, 2023, Amsterdam, The Netherlands."
+        [[params.publications.list]]
             title = "Hardware-conscious techniques for efficient and reliable stateful stream processing"
             authors = "Bonaventura Del Monte"
             venue = "Ph.D. Thesis"
