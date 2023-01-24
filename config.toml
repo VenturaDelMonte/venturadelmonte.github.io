@@ -47,8 +47,8 @@ title = "Bonaventura Del Monte, Ph.D."
         text = "venturadelmonte [at] gmail [dot] com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
-        text = "www.yourwebsite.com"
+        url = "https://venturadelmonte.github.io/"
+        text = "https://venturadelmonte.github.io/"
 
 
 
@@ -198,14 +198,14 @@ I developed my Master's thesis while participating to an Erasmus+ program.
             authors = "Bonaventura Del Monte"
             venue = "Ph.D. Thesis"
             link = "https://depositonce.tu-berlin.de/items/2cc894d9-aaa4-4401-9091-59002f83439a"
-            slides = "static/assets/pdfs/PhD_Talk.pdf"
+            slides = "assets/pdfs/PhD_Talk.pdf"
             fullvenue = "Technische Universität Berlin"
         [[params.publications.list]]
             title = "Rethinking Stateful Stream Processing with RDMA"
             authors = "Bonaventura Del Monte, Steffen Zeuch, Tilmann Rabl, Volker Markl."
             venue = "SIGMOD'22"
             link = "https://dl.acm.org/doi/abs/10.1145/3514221.3517826"
-            slides = "static/assets/pdfs/SlashSigmod2022.pdf"
+            slides = "assets/pdfs/SlashSigmod2022.pdf"
             fullvenue = "2022 ACM SIGMOD International Conference on Management of Data, Philadelphia, USA, 2022."
         [[params.publications.list]]
             title = "NebulaStream: Complex Analytics Beyond the Cloud"
@@ -324,24 +324,19 @@ I developed my Master's thesis while participating to an Erasmus+ program.
 
 
     [params.projects]
-        enable = false
+        enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
+        title = "NebulaStream"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        tagline = "I am actively involved as lead scientist in the development of [NebulaStream](https://www.nebula.stream/): a general purpose, end-to-end data management system for the IoT."
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
+        title = "Rhino"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        tagline = "I was a recipient of a [Software Campus](https://www.softwarecampus.de) award and the principal investigator of the [Rhino Project](https://www.dima.tu-berlin.de/menue/research/current_projects/rhino/) in collaboration with [Huawei Technologies LTD](https://www.huawei.com/)."
 
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-
+       
 
 
 

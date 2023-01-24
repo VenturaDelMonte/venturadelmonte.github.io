@@ -35,8 +35,8 @@ $theme-colors: (
 
 /*************************** Import Bootstrap  *****************************/
 @import "bootstrap/scss/bootstrap.scss";
-@import "../fontawesome/scss/fontawesome.scss";
-@import "../fontawesome/scss/solid.scss";
+// @import "../fontawesome/scss/fontawesome.scss";
+// @import "../fontawesome/scss/solid.scss";
 
 /*************************** DevResume Styles ****************************/
 
@@ -146,14 +146,14 @@ a.resume-link {
 }
 .resume-main {
 	.item-title {
-		font-size: 1rem;
+		font-size: 1.1rem;
 	}
 
    .item-meta {
-	   font-size: 0.8rem;
+	   font-size: 0.85rem;
    }
    .item-content {
-		font-size: 0.9rem;
+		font-size: 0.95rem;
 	}
 }
 
@@ -186,6 +186,9 @@ a.resume-link {
 	font-size: 0.75rem;
 }
 
+.resume-publication-item {
+	font-size: 0.8rem;
+}
 
 .fa-heart {
 	color: #fb866a;
@@ -212,7 +215,11 @@ a.resume-link {
 }
 
 
-
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1170px;
+    }
+}
 
 
 
