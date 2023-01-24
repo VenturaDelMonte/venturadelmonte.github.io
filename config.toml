@@ -194,11 +194,18 @@ I developed my Master's thesis while participating to an Erasmus+ program.
 
         enable = true
         [[params.publications.list]]
+            title = "Hardware-conscious techniques for efficient and reliable stateful stream processing"
+            authors = "Bonaventura Del Monte"
+            venue = "Ph.D. Thesis"
+            link = "https://depositonce.tu-berlin.de/items/2cc894d9-aaa4-4401-9091-59002f83439a"
+            slides = "static/assets/pdfs/PhD_Talk.pdf"
+            fullvenue = "Technische Universität Berlin"
+        [[params.publications.list]]
             title = "Rethinking Stateful Stream Processing with RDMA"
             authors = "Bonaventura Del Monte, Steffen Zeuch, Tilmann Rabl, Volker Markl."
             venue = "SIGMOD'22"
             link = "https://dl.acm.org/doi/abs/10.1145/3514221.3517826"
-            slides = "pdfs/SlashSigmod2022.pdf"
+            slides = "static/assets/pdfs/SlashSigmod2022.pdf"
             fullvenue = "2022 ACM SIGMOD International Conference on Management of Data, Philadelphia, USA, 2022."
         [[params.publications.list]]
             title = "NebulaStream: Complex Analytics Beyond the Cloud"
@@ -221,7 +228,41 @@ I developed my Master's thesis while participating to an Erasmus+ program.
             link = "http://cidrdb.org/cidr2020/papers/p7-zeuch-cidr20.pdf"
             slides = ""
             fullvenue = "Biennial Conference on Innovative Data Systems, Amsterdam, Netherlands, 2020."
-
+        [[params.publications.list]]
+            title = "Analyzing efficient stream processing on modern hardware"
+            authors = "Steffen Zeuch, Bonaventura Del Monte, Jeyhun Karimov, Clemens Lutz, Manuel Renz, Jonas Traub, Sebastian Breß, Tilmann Rabl, and Volker Markl"
+            venue = "VLDB'19"
+            link = "http://www.vldb.org/pvldb/vol12/p516-zeuch.pdf"
+            slides = ""
+            fullvenue = "International Conference on Very Large Data Bases (VLDB-2019), Los Angeles, USA, 2019"
+        [[params.publications.list]]
+            title = "On-the-fly Reconfiguration of Query Plans for Stateful Stream Processing Engines"
+            authors = "Adrian Bartnik, Bonaventura Del Monte, Tilmann Rabl and Volker Markl"
+            venue = "BTW'19"
+            link = "http://www.redaktion.tu-berlin.de/fileadmin/fg131/Publikation/Papers/on-the-fly-reconfiguration_bartnik-2019.pdf"
+            slides = ""
+            fullvenue = "Tagungsband Datenbanksysteme für Business, Technologie und Web (BTW 2019), Rostock, Germany, 2019"
+        [[params.publications.list]]
+            title = "Efficient Migration of Very Large Distributed State for Scalable Stream Processing"
+            authors = "Bonaventura Del Monte"
+            venue = "VLDB'17"
+            link = "http://ceur-ws.org/Vol-1882/paper01.pdf"
+            slides = ""
+            fullvenue = "Proceedings of the VLDB 2017 PhD Workshop. International Conference on Very Large Data Bases (VLDB-2017), located at co-located with the 43rd International Conference on Very Large Databases (VLDB 2017), August 28, München, Germany, 2017"
+        [[params.publications.list]]
+            title = "PROTEUS: Scalable Online Machine Learning for Predictive Analytics and Real-Time Interactive Visualization"
+            authors = "Bonaventura Del Monte, Jeyhun Karimov, Alireza Rezaei Mahdiraji, Tilmann Rabl, Volker Markl"
+            venue = "EDBT'17"
+            link = "http://ceur-ws.org/Vol-1810/EuroPro_paper_03.pdf"
+            slides = ""
+            fullvenue = "International Workshop on Big Data Management in European Projects (EuroPro), 1st, located at Joint Conference EDBT/ICDT, March 21, Venice, Italy, 2017"
+        [[params.publications.list]]
+            title = "A scalable GPU-enabled framework for training deep neural networks"
+            authors = "Bonaventura Del Monte, Radu Prodan"
+            venue = "ICGHPC'16"
+            link = "http://ieeexplore.ieee.org/abstract/document/7508071/"
+            slides = ""
+            fullvenue = "2nd IEEE Int. Conf. on Green High Performance Computing (ICGHPC'16), Nagercoil, India, February 26-27, 2016"
 
     [params.experience]
         enable = false
