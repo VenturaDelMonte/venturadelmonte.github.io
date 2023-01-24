@@ -35,7 +35,8 @@ $theme-colors: (
 
 /*************************** Import Bootstrap  *****************************/
 @import "bootstrap/scss/bootstrap.scss";
-
+@import "../fontawesome/scss/fontawesome.scss";
+@import "../fontawesome/scss/solid.scss";
 
 /*************************** DevResume Styles ****************************/
 
@@ -135,7 +136,9 @@ a.resume-link {
 }
 
 .resume-profile-image {
-	max-width: 120px;
+	max-width: 200px;
+	margin-bottom: 20px;
+	border: 2px solid black;
 }
 
 .resume-intro {

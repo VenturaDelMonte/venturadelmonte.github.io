@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://venturadelmonte.github.io"
+baseURL = "https://venturadelmonte.github.io/"
 languageCode = "en"
 title = "Bonaventura Del Monte, Ph.D."
 #theme = "hugo-devresume-theme"
@@ -9,8 +9,8 @@ title = "Bonaventura Del Monte, Ph.D."
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "Bonaventura Del Monte"
+    description = "Bonaventura Del Monte's personal website"
 
 
     primaryColor = "#54B689"
@@ -159,7 +159,7 @@ title = "Bonaventura Del Monte, Ph.D."
 
     [params.summary]
         enable = true
-        text = """Senior Research Associate at
+        text = """Former Senior Researcher at
 [Technical University Berlin](https://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1)
 collaborating with
 [Volker Markl](https://www.dima.tu-berlin.de/menue/mitarbeiter/volker_markl),
@@ -214,6 +214,13 @@ I developed my Master's thesis while participating to an Erasmus+ program.
             link = "https://dl.acm.org/doi/10.1145/3318464.3389723"
             slides = "https://www.slideshare.net/BonaventuraDelMonte/rhino-efficient-management-of-very-large-distributed-state-for-stream-processing-engines"
             fullvenue = "2020 ACM SIGMOD International Conference on Management of Data, Portland, USA, 2020."
+        [[params.publications.list]]
+            title = "The NebulaStream Platform: Data and Application Management for the Internet of Things"
+            authors = "Steffen Zeuch, Ankit Chaudhary, Bonaventura Del Monte, Haralampos Gavriilidis, Dimitrios Giouroukis, Philipp M. Grulich, Sebastian Bress, Jonas Traub, Volker Markl."
+            venue = "CIDR'20"
+            link = "http://cidrdb.org/cidr2020/papers/p7-zeuch-cidr20.pdf"
+            slides = ""
+            fullvenue = "Biennial Conference on Innovative Data Systems, Amsterdam, Netherlands, 2020."
 
 
     [params.experience]

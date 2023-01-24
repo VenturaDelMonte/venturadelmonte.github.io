@@ -15,7 +15,8 @@
     <!-- Theme SCSS -->
     {{ $style := resources.Get "scss/devresume.scss" | resources.ExecuteAsTemplate "scss/devresume.scss" . | toCSS (dict "targetPath" "assets/css/devresume.css") | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
-    <script defer src="{{ "./static/fontawesome/js/all.min.js" | urlize | relURL }}"></script>
 
+    {{/*  <link href="{{ .Site.BaseURL }}/static/assets/fontawesome/css/all.min.css" rel="stylesheet">  */}}
+    
 
 
